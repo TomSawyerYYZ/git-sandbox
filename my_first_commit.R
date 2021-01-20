@@ -1,2 +1,2 @@
 library(tidyverse)
-qplot(mpg$hwy)
+ggplot(mpg) + geom_histogram(hwy)
